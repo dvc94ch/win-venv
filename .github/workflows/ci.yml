@@ -1,6 +1,6 @@
 name: Venv test windows
 
-on: [push, pull-request]
+on: [push, pull_request]
 
 jobs:
   test:
