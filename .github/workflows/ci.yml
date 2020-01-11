@@ -10,6 +10,8 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: '2.x'
+      - name: Which python
+        run: where python
       - name: Install virtualenv
         run: pip install virtualenv
       - name: Create virtualenv
