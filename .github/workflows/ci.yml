@@ -13,4 +13,4 @@ jobs:
       - name: Install virtualenv
         run: pip install virtualenv
       - name: Create virtualenv
-        run: python -m virtualenv .
+        run: C:\ProgramData\Chocolatey\bin\python2.exe -B -E -s virtualenv.py --no-download C:\Users\runneradmin\.vpython-root\6ed5d3
